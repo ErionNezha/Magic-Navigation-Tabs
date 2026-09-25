@@ -51,7 +51,7 @@ footer strong{color:#9fb3c8}
 </div>
 <main>
 <div class="note">💡 Demo-ja live ekzekutohet direkt në browser. Kliko <strong>Kodi Burim</strong> për të parë kodin e plotë — si të demos (<strong>demo/</strong>), ashtu edhe origjinalin e paprekur (<strong>original/</strong>).</div>
-<div id="p-demo" class="panel active"><iframe class="demo" src="demo/Magic @codingtemplate/index.html" title="Live demo"></iframe></div>
+<div id="p-demo" class="panel active"><iframe class="demo" src="demo/magic/index.html" title="Live demo"></iframe></div>
 <div id="p-code" class="panel"><div class="codewrap">
 <aside class="tree" id="tree"></aside>
 <div class="codeview"><div class="cbar" id="cbar"></div><div id="codebox"><pre></pre></div></div>
@@ -59,7 +59,7 @@ footer strong{color:#9fb3c8}
 </main>
 <footer>Krijuar nga <strong>Erion Nezha</strong> — © 2026 · Të gjitha të drejtat e rezervuara / All rights reserved</footer>
 <script>
-const TREE={"dirs":[{"name":"demo","dirs":[{"name":"Magic @codingtemplate","dirs":[],"files":["index.html","lis moi.txt","script.js","style.css"]}],"files":[]},{"name":"original","dirs":[{"name":"Magic @codingtemplate","dirs":[{"name":"Magic @codingtemplate","dirs":[],"files":["index.html","lis moi.txt","script.js","style.css"]}],"files":[]}],"files":[]}],"files":[]};
+const TREE={"dirs":[{"name":"demo","dirs":[{"name":"magic","dirs":[],"files":["index.html","lis moi.txt","script.js","style.css"]}],"files":[]},{"name":"original","dirs":[{"name":"magic","dirs":[{"name":"magic","dirs":[],"files":["index.html","lis moi.txt","script.js","style.css"]}],"files":[]}],"files":[]}],"files":[]};
 function show(id,btn){document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));document.getElementById('p-'+id).classList.add('active');document.querySelectorAll('.tabs button').forEach(b=>b.classList.remove('active'));btn.classList.add('active');}
 const BINRE=/\.(png|jpe?g|gif|svg|ico|exe|class|o|jar|dat|ogg|mp3|wav|ttf|woff2?|eot|pdf|zip|rar|db|sqlite)$/i;
 function escAttr(s){return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');}
